@@ -1,8 +1,11 @@
 # vim: ft=zsh
 
-for f in "./modules/*.zsh"
+CURRENT=$(pwd)
+
+for f in ${CURRENT}/modules/*.zsh
 do
-	echo "source ${f}"
+	source ${f}
 done
 
 unset f
+unset CURRENT
