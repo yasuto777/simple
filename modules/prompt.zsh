@@ -1,1 +1,2 @@
+echo "load module"
 PROMPT="[%~] > "
