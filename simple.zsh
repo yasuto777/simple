@@ -2,7 +2,7 @@
 
 for f in "./modules/*.zsh"
 do
-	source "${f}"
+	echo "source ${f}"
 done
 
 unset f
